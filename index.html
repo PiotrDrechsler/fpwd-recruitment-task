@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priscilla Suede - Lucchese</title>
+    
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Basic CSS for image aspect ratios -->
+    <style>
+        .aspect-square {
+            aspect-ratio: 1 / 1;
+        }
+    </style>
+</head>
+<body class="bg-white font-sans">
+    
+    <!-- Header -->
+    <header class="border-b border-gray-200 bg-white">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-900">LUCCHESE</h1>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#" class="text-gray-700 hover:text-gray-900">Men</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900">Women</a>
+                    <a href="#" class="text-gray-700 hover:text-gray-900">Collections</a>
+                </nav>
+                <div class="flex space-x-4">
+                    <button class="text-gray-700">🔍</button>
+                    <button class="text-gray-700">🛒</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        
+        <!-- Product Section -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            
+            <!-- Left: Images -->
+            <div class="space-y-4">
+                <!-- Main Image -->
+                <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://www.lucchese.com/cdn/shop/files/GY4579.S54_Right_2048x.jpg?v=1744392497" 
+                         alt="Lucchese Priscilla Suede Boot - Espresso - Front View" 
+                         class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Thumbnail Images -->
+                <div class="grid grid-cols-4 gap-3">
+                    <div class="aspect-square bg-gray-100 rounded border-2 border-gray-900 overflow-hidden cursor-pointer">
+                        <img src="https://www.lucchese.com/cdn/shop/files/GY4579.S54_Pair_2000x.jpg?v=1744392497" 
+                             alt="Priscilla Suede - Front View" class="w-full h-full object-cover">
+                    </div>
+                    <div class="aspect-square bg-gray-100 rounded border border-gray-300 overflow-hidden cursor-pointer hover:border-gray-500">
+                        <img src="https://www.lucchese.com/cdn/shop/files/GY4579.S54_Front_2048x.jpg?v=1744392497" 
+                             alt="Priscilla Suede - Side Profile" class="w-full h-full object-cover">
+                    </div>
+                    <div class="aspect-square bg-gray-100 rounded border border-gray-300 overflow-hidden cursor-pointer hover:border-gray-500">
+                        <img src="https://www.lucchese.com/cdn/shop/files/GY4579.S54_Back_2048x.jpg?v=1744392497" 
+                             alt="Priscilla Suede - Back Detail" class="w-full h-full object-cover">
+                    </div>
+                    <div class="aspect-square bg-gray-100 rounded border border-gray-300 overflow-hidden cursor-pointer hover:border-gray-500">
+                        <img src="https://www.lucchese.com/cdn/shop/files/GY4579.S54_Angle_2048x.jpg?v=1744392497" 
+                             alt="Priscilla Suede - Sole & Heel Detail" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Product Info -->
+            <div class="space-y-6">
+                
+                <!-- Product Title & Price -->
+                <div>
+                    <h1 class="text-3xl font-bold text-gray-900 mb-2">Priscilla Suede</h1>
+                    <p class="text-3xl font-semibold text-gray-900">$1,095</p>
+                    <p class="text-sm text-gray-500 mt-2">STYLE NO. GY4579.S54-2019-B-6</p>
+                </div>
+
+                <!-- Color Selection -->
+                <div>
+                    <h3 class="text-sm font-medium text-gray-900 mb-3">Color</h3>
+                    <div class="flex space-x-3">
+                        <!-- Espresso (Selected) -->
+                        <div class="w-8 h-8 rounded-full border-2 border-gray-900 p-1">
+                            <div class="w-full h-full rounded-full" style="background-color: #8B4513;"></div>
+                        </div>
+                        <!-- Black -->
+                        <div class="w-8 h-8 rounded-full border border-gray-300 p-1">
+                            <div class="w-full h-full rounded-full" style="background-color: #000000;"></div>
+                        </div>
+                        <!-- Tan -->
+                        <div class="w-8 h-8 rounded-full border border-gray-300 p-1">
+                            <div class="w-full h-full rounded-full" style="background-color: #D2691E;"></div>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-2">Espresso</p>
+                </div>
+
+                <!-- Size Selection -->
+                <div>
+                    <div class="flex justify-between items-center mb-3">
+                        <h3 class="text-sm font-medium text-gray-900">Size</h3>
+                        <a href="#" class="text-sm text-blue-600 hover:text-blue-800">Size guide</a>
+                    </div>
+                    <button class="w-full border border-gray-300 rounded-md py-3 px-4 text-left bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <span class="text-gray-500">Choose Size</span>
+                        <span class="float-right">⌄</span>
+                    </button>
+                </div>
+
+                <!-- Width Selection -->
+                <div>
+                    <h3 class="text-sm font-medium text-gray-900 mb-3">Width</h3>
+                    <div class="grid grid-cols-4 gap-3">
+                        <button class="border-2 border-gray-900 bg-gray-900 text-white rounded py-2 px-3 text-sm font-medium">B</button>
+                        <button class="border border-gray-300 bg-white text-gray-900 rounded py-2 px-3 text-sm font-medium hover:bg-gray-50">C</button>
+                        <button class="border border-gray-300 bg-white text-gray-900 rounded py-2 px-3 text-sm font-medium hover:bg-gray-50">D</button>
+                        <button class="border border-gray-300 bg-white text-gray-900 rounded py-2 px-3 text-sm font-medium hover:bg-gray-50">E</button>
+                    </div>
+                </div>
+
+                <!-- Add to Cart Button -->
+                <button class="w-full bg-gray-300 text-gray-500 py-3 px-6 rounded-md font-medium cursor-not-allowed" disabled>
+                    Add to Cart
+                </button>
+                <p class="text-xs text-gray-500 text-center">Please select a size</p>
+
+                <!-- Product Description -->
+                <div class="border-t pt-6">
+                    <h3 class="text-lg font-medium text-gray-900 mb-3">Product Details</h3>
+                    <p class="text-gray-600 mb-4">
+                        Our No. 1 bestselling boot for women, Priscilla walks an elegant line between timeless classic and cowgirl chic. The vintage-inspired Tioga stitch pattern harks back to yesteryear, but Priscilla is a boot built for today. This knee-skimming, pull-on silhouette handcrafted from Maracca suede deserves the spotlight under dresses and over jeans. Handmade in Texas.
+                    </p>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>• Premium Maracca suede leather construction</li>
+                        <li>• Vintage-inspired Tioga stitch pattern</li>
+                        <li>• Knee-skimming pull-on silhouette</li>
+                        <li>• Cushioned leather insole for all-day comfort</li>
+                        <li>• Durable leather outsole with traditional heel</li>
+                        <li>• Handmade in Texas by skilled craftsmen</li>
+                    </ul>
+                </div>
+
+                <!-- Shipping Info -->
+                <div class="border-t pt-6 space-y-2 text-sm">
+                    <div class="flex items-center text-green-600">
+                        <span class="mr-2">✓</span>
+                        <span>FREE SHIPPING ON ORDERS OVER $100</span>
+                    </div>
+                    <div class="flex items-center text-green-600">
+                        <span class="mr-2">✓</span>
+                        <span>30-DAY RETURN OR EXCHANGE</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Recommended Products Section -->
+        <section class="mt-16 border-t pt-16">
+            <h2 class="text-2xl font-bold text-gray-900 mb-8">You may be interested in</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Product 1 - Cowboy Classic -->
+                <div class="group">
+                    <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden group-hover:opacity-75 transition-opacity">
+                        <img src="https://www.lucchese.com/cdn/shop/files/N4830.54-6010_Pair_ec80d542-099d-4473-8db1-b8e4e196af62.jpg?v=1738689722&width=533" 
+                             alt="Lucchese Cowboy Classic Boot" class="w-full h-full object-cover">
+                    </div>
+                    <div class="mt-3">
+                        <h3 class="text-sm font-medium text-gray-900">Cowboy Classic</h3>
+                        <p class="text-sm text-gray-500">Brown Leather</p>
+                        <p class="text-sm font-medium text-gray-900 mt-1">$895</p>
+                    </div>
+                </div>
+
+                <!-- Product 2 - Ranch Rider -->
+                <div class="group">
+                    <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden group-hover:opacity-75 transition-opacity">
+                        <img src="https://www.lucchese.com/cdn/shop/files/N501254_Pair.jpg?v=1752183903&width=533" 
+                             alt="Lucchese Ranch Rider Boot" class="w-full h-full object-cover">
+                    </div>
+                    <div class="mt-3">
+                        <h3 class="text-sm font-medium text-gray-900">Ranch Rider</h3>
+                        <p class="text-sm text-gray-500">Black Leather</p>
+                        <p class="text-sm font-medium text-gray-900 mt-1">$1,250</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 - Western Heritage -->
+                <div class="group">
+                    <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden group-hover:opacity-75 transition-opacity">
+                        <img src="https://www.lucchese.com/cdn/shop/files/57e50ddd-eccf-4c9b-9a61-59a643bb0c7a_5fd1a95e-3757-4498-afc3-6b6f108cb49a.jpg?v=1747858208&width=533" 
+                             alt="Lucchese Western Heritage Boot" class="w-full h-full object-cover">
+                    </div>
+                    <div class="mt-3">
+                        <h3 class="text-sm font-medium text-gray-900">Western Heritage</h3>
+                        <p class="text-sm text-gray-500">Cognac Leather</p>
+                        <p class="text-sm font-medium text-gray-900 mt-1">$975</p>
+                    </div>
+                </div>
+
+                <!-- Product 4 - Rodeo Queen -->
+                <div class="group">
+                    <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden group-hover:opacity-75 transition-opacity">
+                        <img src="https://www.lucchese.com/cdn/shop/files/updated_N4971.54_Pair.jpg?v=1722545309&width=533" 
+                             alt="Lucchese Rodeo Queen Boot" class="w-full h-full object-cover">
+                    </div>
+                    <div class="mt-3">
+                        <h3 class="text-sm font-medium text-gray-900">Rodeo Queen</h3>
+                        <p class="text-sm text-gray-500">Tan Suede</p>
+                        <p class="text-sm font-medium text-gray-900 mt-1">$1,150</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer spacer -->
+    <div class="h-16"></div>
+
+</body>
+</html>
