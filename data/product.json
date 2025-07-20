@@ -1,0 +1,62 @@
+{
+  "id": "priscilla-suede-espresso",
+  "name": "Priscilla Suede",
+  "price": 1095,
+  "styleNumber": "GY4579.S54-2019-B-6",
+  "description": "Our No. 1 bestselling boot for women, Priscilla walks an elegant line between timeless classic and cowgirl chic. The vintage-inspired Tioga stitch pattern harks back to yesteryear, but Priscilla is a boot built for today. This knee-skimming, pull-on silhouette handcrafted from Maracca suede deserves the spotlight under dresses and over jeans. Handmade in Texas.",
+  "features": [
+    "Premium Maracca suede leather construction",
+    "Vintage-inspired Tioga stitch pattern",
+    "Knee-skimming pull-on silhouette", 
+    "Cushioned leather insole for all-day comfort",
+    "Durable leather outsole with traditional heel",
+    "Handmade in Texas by skilled craftsmen"
+  ],
+  "colors": [
+    {
+      "name": "Espresso",
+      "hex": "#8B4513",
+      "available": true
+    },
+    {
+      "name": "Black", 
+      "hex": "#000000",
+      "available": true
+    },
+    {
+      "name": "Tan",
+      "hex": "#D2691E", 
+      "available": false
+    }
+  ],
+  "sizes": ["5", "5.5", "6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11"],
+  "widths": ["B", "C", "D", "E"],
+  "images": [
+    {
+      "src": "https://www.lucchese.com/cdn/shop/files/GY4579.S54_Right_2048x.jpg?v=1744392497",
+      "alt": "Lucchese Priscilla Suede Boot - Espresso - Front View",
+      "isPrimary": true
+    },
+    {
+      "src": "https://www.lucchese.com/cdn/shop/files/GY4579.S54_Pair_2000x.jpg?v=1744392497", 
+      "alt": "Priscilla Suede - Side Profile",
+      "isPrimary": false
+    },
+    {
+      "src": "https://www.lucchese.com/cdn/shop/files/GY4579.S54_Front_2048x.jpg?v=1744392497",
+      "alt": "Priscilla Suede - Back Detail", 
+      "isPrimary": false
+    },
+    {
+      "src": "https://www.lucchese.com/cdn/shop/files/GY4579.S54_Back_2048x.jpg?v=1744392497",
+      "alt": "Priscilla Suede - Sole & Heel Detail",
+      "isPrimary": false
+    }
+  ],
+  "inStock": true,
+  "stockMessage": "This item is currently in stock at our retail store. To have it delivered to your home, call the store to place your order.",
+  "shipping": {
+    "freeShippingThreshold": 100,
+    "returnPeriod": 30
+  }
+}
