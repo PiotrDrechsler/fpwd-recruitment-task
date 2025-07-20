@@ -5,7 +5,14 @@
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
-    "dev": "npx serve . --listen 3000"
+    "dev": "npx serve . --listen 3000",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "install-browsers": "npx playwright install",
+    "lint": "echo 'Linting not configured yet'",
+    "format": "echo 'Formatting not configured yet'"
   },
   "keywords": [
     "frontend",
@@ -14,15 +21,24 @@
     "ecommerce",
     "product-page",
     "responsive",
-    "javascript"
+    "javascript",
+    "lucchese",
+    "boots"
   ],
   "author": "Piotr Drechsler",
   "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
   "engines": {
     "node": ">=16.0.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/PiotrDrechsler/fpwd-recruitment-task"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/PiotrDrechsler/fpwd-recruitment-task/issues"
+  },
+  "homepage": "https://PiotrDrechsler.github.io/fpwd-recruitment-task"
 }
