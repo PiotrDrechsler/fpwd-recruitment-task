@@ -33,22 +33,22 @@
   "widths": ["B", "C", "D", "E"],
   "images": [
     {
-      "src": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "src": "https://www.lucchese.com/cdn/shop/files/GY4579.S54_Right_2048x.jpg?v=1744392497",
       "alt": "Lucchese Priscilla Suede Boot - Espresso - Front View",
       "isPrimary": true
     },
     {
-      "src": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80", 
+      "src": "https://www.lucchese.com/cdn/shop/files/GY4579.S54_Pair_2000x.jpg?v=1744392497", 
       "alt": "Priscilla Suede - Side Profile",
       "isPrimary": false
     },
     {
-      "src": "https://images.unsplash.com/photo-1608256246200-53e8b47b9688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "src": "https://www.lucchese.com/cdn/shop/files/GY4579.S54_Front_2048x.jpg?v=1744392497",
       "alt": "Priscilla Suede - Back Detail", 
       "isPrimary": false
     },
     {
-      "src": "https://images.unsplash.com/photo-1605348532760-6753d2c43329?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "src": "https://www.lucchese.com/cdn/shop/files/GY4579.S54_Back_2048x.jpg?v=1744392497",
       "alt": "Priscilla Suede - Sole & Heel Detail",
       "isPrimary": false
     }
