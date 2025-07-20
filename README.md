@@ -1,8 +1,12 @@
 # Lucchese Product Page
 
+[![CI/CD Pipeline](https://github.com/PiotrDrechsler/fpwd-recruitment-task/actions/workflows/ci.yml/badge.svg)](https://github.com/PiotrDrechsler/fpwd-recruitment-task/actions/workflows/ci.yml)
+
 Recreation of Lucchese boot product page using Alpine.js and TailwindCSS.
 
 ## 🚀 Demo
+
+**Live Demo:** [https://PiotrDrechsler.github.io/fpwd-recruitment-task](https://PiotrDrechsler.github.io/fpwd-recruitment-task)
 
 Interactive product page with image gallery, size selection, and add to cart functionality.
 
@@ -12,6 +16,7 @@ Interactive product page with image gallery, size selection, and add to cart fun
 - Alpine.js for interactivity
 - JSON for product data
 - Playwright for testing
+- GitHub Actions for CI/CD
 
 ## 📦 Installation
 
@@ -42,6 +47,7 @@ npm run test:headed
 ## 📁 Project Structure
 
 ```
+├── .github/workflows/ci.yml  # CI/CD pipeline
 ├── index.html              # Main page
 ├── styles/style.css        # Custom styles  
 ├── scripts/main.js         # Alpine.js logic
@@ -56,6 +62,7 @@ npm run test:headed
 - Color picker
 - Add to cart workflow
 - Mobile-friendly design
+- Automated CI/CD deployment
 
 ## 👨‍💻 Author
 
