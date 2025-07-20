@@ -1,0 +1,28 @@
+{
+  "name": "fpwd-recruitment-task",
+  "version": "1.0.0",
+  "description": "Recreation of Lucchese boot product page using Alpine.js and TailwindCSS",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . --listen 3000"
+  },
+  "keywords": [
+    "frontend",
+    "alpine.js",
+    "tailwindcss",
+    "ecommerce",
+    "product-page",
+    "responsive",
+    "javascript"
+  ],
+  "author": "Piotr Drechsler",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PiotrDrechsler/fpwd-recruitment-task"
+  }
+}
