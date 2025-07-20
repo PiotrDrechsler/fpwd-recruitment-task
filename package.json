@@ -1,0 +1,35 @@
+{
+  "name": "fpwd-recruitment-task",
+  "version": "1.0.0",
+  "description": "Recreation of Lucchese boot product page using Alpine.js and TailwindCSS",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . --listen 3000",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "install-browsers": "npx playwright install"
+  },
+  "keywords": [
+    "frontend",
+    "alpine.js",
+    "tailwindcss",
+    "ecommerce",
+    "product-page",
+    "responsive",
+    "javascript"
+  ],
+  "author": "Piotr Drechsler",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PiotrDrechsler/fpwd-recruitment-task"
+  }
+}
