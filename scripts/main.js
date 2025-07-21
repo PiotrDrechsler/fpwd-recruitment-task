@@ -4,13 +4,13 @@ function productPage() {
         // Data properties
         product: {},
         recommendedProducts: [],
-        
+
         // Selection states
         selectedColor: null,
         selectedSize: null,
         selectedWidth: 'B',
         selectedImage: null,
-        
+
         // UI states
         showSizeModal: false,
         showSizeGuide: false,
@@ -46,8 +46,23 @@ function productPage() {
                 console.log('Product data loaded:', this.product);
             } catch (error) {
                 console.error('Failed to load product.json:', error);
-                this.error = 'Failed to load product data. Please check if data/product.json exists.';
-                throw error;
+                this.error =
+                    'Failed to load product data. Please check if data/product.json exists.';
+                // Set fallback data so the page is still usable
+                this.product = {
+                    name: 'Product Unavailable',
+                    price: 0,
+                    description: 'Unable to load product information. Please refresh the page.',
+                    images: [
+                        {
+                            src: 'https://via.placeholder.com/600x600?text=No+Image',
+                            alt: 'Product image unavailable',
+                        },
+                    ],
+                    colors: [],
+                    sizes: [],
+                    widths: [],
+                };
             }
         },
 
@@ -63,8 +78,9 @@ function productPage() {
                 console.log('Recommendations loaded:', this.recommendedProducts);
             } catch (error) {
                 console.error('Failed to load recommendations.json:', error);
-                this.error = 'Failed to load recommendations. Please check if data/recommendations.json exists.';
-                throw error;
+                // Don't throw error - recommendations are not critical
+                // Just set empty array so the section is hidden
+                this.recommendedProducts = [];
             }
         },
 
@@ -82,7 +98,7 @@ function productPage() {
             console.log('Defaults set:', {
                 color: this.selectedColor?.name,
                 width: this.selectedWidth,
-                image: this.selectedImage?.alt
+                image: this.selectedImage?.alt,
             });
         },
 
@@ -99,7 +115,7 @@ function productPage() {
                 style: 'currency',
                 currency: 'USD',
                 minimumFractionDigits: 0,
-                maximumFractionDigits: 0
+                maximumFractionDigits: 0,
             }).format(price);
         },
 
@@ -117,12 +133,12 @@ function productPage() {
                 color: this.selectedColor.name,
                 size: this.selectedSize,
                 width: this.selectedWidth,
-                image: this.selectedImage.src
+                image: this.selectedImage.src,
             };
 
             // In a real app, this would send to an API
             console.log('Adding to cart:', cartItem);
-            
+
             // Show success feedback
             this.showAddToCartSuccess();
         },
@@ -131,10 +147,10 @@ function productPage() {
         showAddToCartSuccess() {
             const originalText = this.addToCartText;
             this.addToCartText = 'Added to Cart!';
-            
+
             setTimeout(() => {
                 this.addToCartText = originalText;
             }, 2000);
-        }
+        },
     };
 }

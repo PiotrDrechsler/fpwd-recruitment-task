@@ -1,40 +1,40 @@
 [
-  {
-    "id": "priscilla-brown",
-    "name": "Priscilla",
-    "color": "Brown Leather", 
-    "price": 1095,
-    "image": "https://www.lucchese.com/cdn/shop/files/GY4580.S54-2009_Right_2048x.jpg?v=1741795510",
-    "href": "https://www.lucchese.com/products/priscilla-brown",
-    "description": "Handcrafted from Vero Goat leather",
-    "styleNumber": "GY4580.S54-2009-B-6"
-  },
-  {
-    "id": "priscilla-black", 
-    "name": "Priscilla",
-    "color": "Black Leather",
-    "price": 1095,
-    "image": "https://www.lucchese.com/cdn/shop/files/GY4581S54-1001_Right_2000x.jpg?v=1748981155",
-    "href": "https://www.lucchese.com/products/priscilla-black",
-    "description": "Handcrafted from Vero Goat leather",
-    "styleNumber": "GY4581.S54-1001-B-6"
-  },
-  {
-    "id": "priscilla-glitz-cream",
-    "name": "Priscilla", 
-    "color": "Glitz Cream",
-    "price": 995,
-    "image": "https://www.lucchese.com/cdn/shop/files/N4831.54-1521_Right_2000x.jpg?v=1741629876",
-    "href": "https://www.lucchese.com/products/priscilla-glitz-cream",
-    "description": "Handcrafted from Old English goat leather"
-  },
-  {
-    "id": "priscilla-red",
-    "name": "Priscilla",
-    "color": "Red Leather", 
-    "price": 1095,
-    "image": "https://www.lucchese.com/cdn/shop/files/N4830.54-6010_Right_91926abf-4f85-4aaa-847a-614881476036_2000x.jpg?v=1738689722",
-    "href": "https://www.lucchese.com/products/priscilla-red",
-    "description": "Handcrafted from Mad Dog goat leather"
-  }
+    {
+        "id": "priscilla-brown",
+        "name": "Priscilla",
+        "color": "Brown Leather",
+        "price": 1095,
+        "image": "https://www.lucchese.com/cdn/shop/files/GY4580.S54-2009_Right_2048x.jpg?v=1741795510",
+        "href": "https://www.lucchese.com/products/priscilla-brown",
+        "description": "Handcrafted from Vero Goat leather",
+        "styleNumber": "GY4580.S54-2009-B-6"
+    },
+    {
+        "id": "priscilla-black",
+        "name": "Priscilla",
+        "color": "Black Leather",
+        "price": 1095,
+        "image": "https://www.lucchese.com/cdn/shop/files/GY4581S54-1001_Right_2000x.jpg?v=1748981155",
+        "href": "https://www.lucchese.com/products/priscilla-black",
+        "description": "Handcrafted from Vero Goat leather",
+        "styleNumber": "GY4581.S54-1001-B-6"
+    },
+    {
+        "id": "priscilla-glitz-cream",
+        "name": "Priscilla",
+        "color": "Glitz Cream",
+        "price": 995,
+        "image": "https://www.lucchese.com/cdn/shop/files/N4831.54-1521_Right_2000x.jpg?v=1741629876",
+        "href": "https://www.lucchese.com/products/priscilla-glitz-cream",
+        "description": "Handcrafted from Old English goat leather"
+    },
+    {
+        "id": "priscilla-red",
+        "name": "Priscilla",
+        "color": "Red Leather",
+        "price": 1095,
+        "image": "https://www.lucchese.com/cdn/shop/files/N4830.54-6010_Right_91926abf-4f85-4aaa-847a-614881476036_2000x.jpg?v=1738689722",
+        "href": "https://www.lucchese.com/products/priscilla-red",
+        "description": "Handcrafted from Mad Dog goat leather"
+    }
 ]
