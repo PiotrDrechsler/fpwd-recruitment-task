@@ -4,13 +4,13 @@ function productPage() {
         // Data properties
         product: {},
         recommendedProducts: [],
-        
+
         // Selection states
         selectedColor: null,
         selectedSize: null,
         selectedWidth: 'B',
         selectedImage: null,
-        
+
         // UI states
         showSizeModal: false,
         showSizeGuide: false,
@@ -46,7 +46,8 @@ function productPage() {
                 console.log('Product data loaded:', this.product);
             } catch (error) {
                 console.error('Failed to load product.json:', error);
-                this.error = 'Failed to load product data. Please check if data/product.json exists.';
+                this.error =
+                    'Failed to load product data. Please check if data/product.json exists.';
                 throw error;
             }
         },
@@ -63,7 +64,8 @@ function productPage() {
                 console.log('Recommendations loaded:', this.recommendedProducts);
             } catch (error) {
                 console.error('Failed to load recommendations.json:', error);
-                this.error = 'Failed to load recommendations. Please check if data/recommendations.json exists.';
+                this.error =
+                    'Failed to load recommendations. Please check if data/recommendations.json exists.';
                 throw error;
             }
         },
@@ -82,7 +84,7 @@ function productPage() {
             console.log('Defaults set:', {
                 color: this.selectedColor?.name,
                 width: this.selectedWidth,
-                image: this.selectedImage?.alt
+                image: this.selectedImage?.alt,
             });
         },
 
@@ -99,7 +101,7 @@ function productPage() {
                 style: 'currency',
                 currency: 'USD',
                 minimumFractionDigits: 0,
-                maximumFractionDigits: 0
+                maximumFractionDigits: 0,
             }).format(price);
         },
 
@@ -117,12 +119,12 @@ function productPage() {
                 color: this.selectedColor.name,
                 size: this.selectedSize,
                 width: this.selectedWidth,
-                image: this.selectedImage.src
+                image: this.selectedImage.src,
             };
 
             // In a real app, this would send to an API
             console.log('Adding to cart:', cartItem);
-            
+
             // Show success feedback
             this.showAddToCartSuccess();
         },
@@ -131,10 +133,10 @@ function productPage() {
         showAddToCartSuccess() {
             const originalText = this.addToCartText;
             this.addToCartText = 'Added to Cart!';
-            
+
             setTimeout(() => {
                 this.addToCartText = originalText;
             }, 2000);
-        }
+        },
     };
 }

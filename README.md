@@ -12,11 +12,11 @@ Interactive product page with image gallery, size selection, and add to cart fun
 
 ## 🛠️ Technologies
 
-- HTML + TailwindCSS
-- Alpine.js for interactivity
-- JSON for product data
-- Playwright for testing
-- GitHub Actions for CI/CD
+-   HTML + TailwindCSS
+-   Alpine.js for interactivity
+-   JSON for product data
+-   Playwright for testing
+-   GitHub Actions for CI/CD
 
 ## 📦 Installation
 
@@ -49,7 +49,7 @@ npm run test:headed
 ```
 ├── .github/workflows/ci.yml  # CI/CD pipeline
 ├── index.html              # Main page
-├── styles/style.css        # Custom styles  
+├── styles/style.css        # Custom styles
 ├── scripts/main.js         # Alpine.js logic
 ├── data/                   # JSON product data
 └── tests/                  # E2E tests
@@ -57,12 +57,12 @@ npm run test:headed
 
 ## ✨ Features
 
-- Responsive image gallery
-- Size selection modal
-- Color picker
-- Add to cart workflow
-- Mobile-friendly design
-- Automated CI/CD deployment
+-   Responsive image gallery
+-   Size selection modal
+-   Color picker
+-   Add to cart workflow
+-   Mobile-friendly design
+-   Automated CI/CD deployment
 
 ## 👨‍💻 Author
 
