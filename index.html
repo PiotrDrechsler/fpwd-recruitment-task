@@ -47,8 +47,37 @@
             </div>
         </div>
 
+        <!-- Error State -->
+        <div x-show="error && !loading" class="flex justify-center items-center h-64">
+            <div class="text-center max-w-md">
+                <div class="text-red-600 mb-4">
+                    <svg
+                        class="w-16 h-16 mx-auto"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        ></path>
+                    </svg>
+                </div>
+                <p class="text-gray-900 font-semibold mb-2">Oops! Something went wrong</p>
+                <p class="text-gray-600 text-sm mb-4" x-text="error"></p>
+                <button
+                    @click="location.reload()"
+                    class="px-4 py-2 bg-gray-900 text-white rounded hover:bg-gray-800 transition-colors"
+                >
+                    Try Again
+                </button>
+            </div>
+        </div>
+
         <!-- Main Content -->
-        <main class="max-w-6xl mx-auto px-4 py-8" x-show="!loading">
+        <main class="max-w-6xl mx-auto px-4 py-8" x-show="!loading && !error">
             <!-- Product Section -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
                 <!-- Left: Images -->

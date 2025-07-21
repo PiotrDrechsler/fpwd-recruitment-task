@@ -48,7 +48,21 @@ function productPage() {
                 console.error('Failed to load product.json:', error);
                 this.error =
                     'Failed to load product data. Please check if data/product.json exists.';
-                throw error;
+                // Set fallback data so the page is still usable
+                this.product = {
+                    name: 'Product Unavailable',
+                    price: 0,
+                    description: 'Unable to load product information. Please refresh the page.',
+                    images: [
+                        {
+                            src: 'https://via.placeholder.com/600x600?text=No+Image',
+                            alt: 'Product image unavailable',
+                        },
+                    ],
+                    colors: [],
+                    sizes: [],
+                    widths: [],
+                };
             }
         },
 
@@ -64,9 +78,9 @@ function productPage() {
                 console.log('Recommendations loaded:', this.recommendedProducts);
             } catch (error) {
                 console.error('Failed to load recommendations.json:', error);
-                this.error =
-                    'Failed to load recommendations. Please check if data/recommendations.json exists.';
-                throw error;
+                // Don't throw error - recommendations are not critical
+                // Just set empty array so the section is hidden
+                this.recommendedProducts = [];
             }
         },
 
